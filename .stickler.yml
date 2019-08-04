@@ -1,0 +1,10 @@
+linters:
+  swiftlint: {  }
+  rubocop:
+    fixer: true
+  shellcheck:
+    shell: bash
+  flake8:
+    fixer: true
+fixers:
+  enable: true
