@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Scott Goodson' => 'scottgoodson@gmail.com' }
   spec.summary      = 'Smooth asynchronous user interfaces for iOS apps.'
   spec.source       = { :git => 'https://github.com/facebook/AsyncDisplayKit.git', :tag => spec.version.to_s }
-  spec.deprecated_in_favor_of = 'Texture'
 
   spec.documentation_url = 'http://asyncdisplaykit.org/appledoc/'
 
